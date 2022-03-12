@@ -1,0 +1,280 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css);
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap);
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5{
+    color:#F6D167;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+  
+  p{
+    font-family: "Roboto";
+     font-weight:300;
+  }
+  /* Navbar */
+  .navbar{
+  
+    padding: 2% 5%;
+    background-color: #297F87;
+  
+  }
+  
+  .logo{
+    height: 3rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-left: 10px;
+  
+  }
+  
+  
+  /* Title */
+  
+  #title {
+    /* The image used */
+    background-image: url(/static/media/title-background-image.5de6e72a.jpg);
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+  }
+  
+  
+  .title-image{
+    width:100%;
+  }
+  
+  
+  
+  /* About us */
+  
+  .about-us-content{
+    background-color: #297F87;
+    padding: 2% 3%;
+    text-align: center;
+  }
+  
+  .about-us-content h1{
+      color:yellow;
+      text-align: left;
+  }
+  
+  .about-us-content p{
+    color: white;
+    text-align: left;
+  }
+  
+  .about-us-image{
+    background-image: url(/static/media/about-us.5da72dee.png);
+    position: relative;
+  
+  }
+  
+  .card-1{
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+      position: absolute;
+    width:30%;
+    top:25%;
+    left:25%;
+  }
+  
+  .card-2{
+    width:30%;
+    position: absolute;
+    top:20%;
+    left:40%;
+  
+  }
+  
+  .card-3{
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+      position: absolute;
+    width:30%;
+    top:30%;
+    right:20%;
+  }
+  
+  /* tokenomics */
+  #tokenomics{
+      text-align: center;
+      background-image: url(/static/media/tokenomics-background.4b458db3.jpg);
+  
+      background-position: center;
+  
+  }
+  
+  #tokenomics .fas{
+    color:#297F87;
+  }
+  
+  #tokenomics .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* .tokenomics-title{
+  
+  } */
+  
+  .card{
+    background-color: #297F87;
+    color: white;
+    margin-bottom:30px;
+  }
+  
+  
+  /* audits */
+  #audits{
+    text-align: center;
+    background-image: url(/static/media/audit-background.c826c16d.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  #audits .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  .audit-cert{
+    width: 50%;
+  }
+
+/*partner*/
+
+#partner{
+  text-align: center;
+  background-image: url(/static/media/partner-background.907b6af0.png);
+  height: 20%;
+
+}
+
+#partner .container-fluid{
+  padding: 7% 15%;
+}
+
+.partner-logo{
+  height: 7rem;
+}
+
+.partner-logo:hover{
+  height: 7.5rem;
+}
+  
+  /* Play Now */
+  
+  
+  #play-now .container-fluid{
+    padding: 7% 15%;
+  
+  
+  }
+  
+  #play-now{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/static/media/menu_background.f7fdfed1.png);
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      text-align: center;
+    display: -webkit-flex;
+    display: flex;
+   -webkit-justify-content: center;
+           justify-content: center;
+  
+  
+  
+  }
+  
+  
+  
+  .play-button-cat{
+    padding-bottom:10px;
+    height:10rem;
+  }
+  
+  .play-button{
+  
+  
+    font-size: 2rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 0;
+  
+  }
+  
+  /* Contact */
+  #contact{
+    text-align: center;
+    background-color: #069999;
+    color:#F6D167;
+  }
+  
+  #contact .container-fluid{
+    padding: 7% 15%;
+  }
+  .social-icon {
+    margin: 20px 10px;
+      color:#F6D167;
+  }
+  
+  
+  @media (max-width: 750px) {
+  
+    body {
+      text-align: center;
+    }
+   .about-us-content h1{
+     text-align:center;
+   }
+  
+   .about-us-content p{
+     text-align:center;
+   }
+    .play-now-button{
+      display: none;
+    }
+  
+    .cat{
+      display:none;
+    }
+  
+    .about-us-image {
+      display:none;
+    }
+  
+    #play-now{
+      display:none;
+    }
+  
+  }
+
+
+h1 {
+    text-shadow: 1px 1px #056641;
+  }
+
+.styleOutlineHome {
+    text-shadow: 1px 1px #056641;
+  }
